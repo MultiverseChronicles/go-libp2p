@@ -146,7 +146,7 @@ const file_p2p_security_noise_pb_payload_proto_rawDesc = "" +
 	"\fidentity_sig\x18\x02 \x01(\fR\videntitySig\x123\n" +
 	"\n" +
 	"extensions\x18\x04 \x01(\v2\x13.pb.NoiseExtensionsR\n" +
-	"extensionsB3Z1github.com/libp2p/go-libp2p/p2p/security/noise/pb"
+	"extensionsB3Z1github.com/MultiverseChronicles/go-libp2p/p2p/security/noise/pb"
 
 var (
 	file_p2p_security_noise_pb_payload_proto_rawDescOnce sync.Once

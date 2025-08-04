@@ -13,8 +13,8 @@ import (
 	p2pforge "github.com/ipshipyard/p2p-forge/client"
 	"github.com/libp2p/go-libp2p"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
-	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
-	ws "github.com/libp2p/go-libp2p/p2p/transport/websocket"
+	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcp"
+	ws "github.com/MultiverseChronicles/go-libp2p/p2p/transport/websocket"
 )
 
 var logger = log.Logger("autotls-example")

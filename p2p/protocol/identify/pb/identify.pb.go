@@ -43,8 +43,8 @@ type Identify struct {
 	// signedPeerRecord contains a serialized SignedEnvelope containing a PeerRecord,
 	// signed by the sending node. It contains the same addresses as the listenAddrs field, but
 	// in a form that lets us share authenticated addrs with other peers.
-	// see github.com/libp2p/go-libp2p/core/record/pb/envelope.proto and
-	// github.com/libp2p/go-libp2p/core/peer/pb/peer_record.proto for message definitions.
+	// see github.com/MultiverseChronicles/go-libp2p/core/record/pb/envelope.proto and
+	// github.com/MultiverseChronicles/go-libp2p/core/peer/pb/peer_record.proto for message definitions.
 	SignedPeerRecord []byte `protobuf:"bytes,8,opt,name=signedPeerRecord" json:"signedPeerRecord,omitempty"`
 	unknownFields    protoimpl.UnknownFields
 	sizeCache        protoimpl.SizeCache
@@ -141,7 +141,7 @@ const file_p2p_protocol_identify_pb_identify_proto_rawDesc = "" +
 	"\vlistenAddrs\x18\x02 \x03(\fR\vlistenAddrs\x12\"\n" +
 	"\fobservedAddr\x18\x04 \x01(\fR\fobservedAddr\x12\x1c\n" +
 	"\tprotocols\x18\x03 \x03(\tR\tprotocols\x12*\n" +
-	"\x10signedPeerRecord\x18\b \x01(\fR\x10signedPeerRecordB6Z4github.com/libp2p/go-libp2p/p2p/protocol/identify/pb"
+	"\x10signedPeerRecord\x18\b \x01(\fR\x10signedPeerRecordB6Z4github.com/MultiverseChronicles/go-libp2p/p2p/protocol/identify/pb"
 
 var (
 	file_p2p_protocol_identify_pb_identify_proto_rawDescOnce sync.Once

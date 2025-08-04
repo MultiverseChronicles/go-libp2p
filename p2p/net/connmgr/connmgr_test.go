@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
-	tu "github.com/libp2p/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	tu "github.com/MultiverseChronicles/go-libp2p/core/test"
 
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

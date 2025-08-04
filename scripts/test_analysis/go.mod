@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p/scripts/test_analysis
+module github.com/MultiverseChronicles/go-libp2p/scripts/test_analysis
 
 go 1.23
 

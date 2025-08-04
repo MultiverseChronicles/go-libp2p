@@ -10,7 +10,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/libp2p/go-libp2p/core/crypto/pb"
+	"github.com/MultiverseChronicles/go-libp2p/core/crypto/pb"
 
 	"google.golang.org/protobuf/proto"
 )

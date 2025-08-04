@@ -387,7 +387,7 @@ const file_p2p_host_autonat_pb_autonat_proto_rawDesc = "" +
 	"\fE_DIAL_ERROR\x10d\x12\x12\n" +
 	"\x0eE_DIAL_REFUSED\x10e\x12\x12\n" +
 	"\rE_BAD_REQUEST\x10\xc8\x01\x12\x15\n" +
-	"\x10E_INTERNAL_ERROR\x10\xac\x02B1Z/github.com/libp2p/go-libp2p/p2p/host/autonat/pb"
+	"\x10E_INTERNAL_ERROR\x10\xac\x02B1Z/github.com/MultiverseChronicles/go-libp2p/p2p/host/autonat/pb"
 
 var (
 	file_p2p_host_autonat_pb_autonat_proto_rawDescOnce sync.Once

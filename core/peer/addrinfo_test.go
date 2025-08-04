@@ -3,7 +3,7 @@ package peer_test
 import (
 	"testing"
 
-	. "github.com/libp2p/go-libp2p/core/peer"
+	. "github.com/MultiverseChronicles/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
 
 	ma "github.com/multiformats/go-multiaddr"

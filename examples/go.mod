@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p/examples
+module github.com/MultiverseChronicles/go-libp2p/examples
 
 go 1.23.0
 

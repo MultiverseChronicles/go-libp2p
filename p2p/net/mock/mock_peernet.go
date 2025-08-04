@@ -7,11 +7,11 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/libp2p/go-libp2p/core/connmgr"
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/core/connmgr"
+	"github.com/MultiverseChronicles/go-libp2p/core/event"
+	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
 	ma "github.com/multiformats/go-multiaddr"
 )
 

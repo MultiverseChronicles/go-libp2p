@@ -164,7 +164,7 @@ const file_p2p_transport_webrtc_pb_message_proto_rawDesc = "" +
 	"\x03FIN\x10\x00\x12\x10\n" +
 	"\fSTOP_SENDING\x10\x01\x12\t\n" +
 	"\x05RESET\x10\x02\x12\v\n" +
-	"\aFIN_ACK\x10\x03B5Z3github.com/libp2p/go-libp2p/p2p/transport/webrtc/pb"
+	"\aFIN_ACK\x10\x03B5Z3github.com/MultiverseChronicles/go-libp2p/p2p/transport/webrtc/pb"
 
 var (
 	file_p2p_transport_webrtc_pb_message_proto_rawDescOnce sync.Once

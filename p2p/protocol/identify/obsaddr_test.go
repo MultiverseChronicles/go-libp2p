@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/network"
-	blankhost "github.com/libp2p/go-libp2p/p2p/host/blank"
-	"github.com/libp2p/go-libp2p/p2p/host/eventbus"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	"github.com/MultiverseChronicles/go-libp2p/core/event"
+	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	blankhost "github.com/MultiverseChronicles/go-libp2p/p2p/host/blank"
+	"github.com/MultiverseChronicles/go-libp2p/p2p/host/eventbus"
+	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 
 	ma "github.com/multiformats/go-multiaddr"
 	matest "github.com/multiformats/go-multiaddr/matest"

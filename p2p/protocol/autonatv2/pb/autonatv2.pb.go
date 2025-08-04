@@ -620,7 +620,7 @@ const file_p2p_protocol_autonatv2_pb_autonatv2_proto_rawDesc = "" +
 	"\x06UNUSED\x10\x00\x12\x10\n" +
 	"\fE_DIAL_ERROR\x10d\x12\x15\n" +
 	"\x11E_DIAL_BACK_ERROR\x10e\x12\a\n" +
-	"\x02OK\x10\xc8\x01B7Z5github.com/libp2p/go-libp2p/p2p/protocol/autonatv2/pbb\x06proto3"
+	"\x02OK\x10\xc8\x01B7Z5github.com/MultiverseChronicles/go-libp2p/p2p/protocol/autonatv2/pbb\x06proto3"
 
 var (
 	file_p2p_protocol_autonatv2_pb_autonatv2_proto_rawDescOnce sync.Once

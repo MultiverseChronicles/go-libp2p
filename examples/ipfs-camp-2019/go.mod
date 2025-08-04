@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p/examples/ipfs-camp-2019
+module github.com/MultiverseChronicles/go-libp2p/examples/ipfs-camp-2019
 
 go 1.23
 

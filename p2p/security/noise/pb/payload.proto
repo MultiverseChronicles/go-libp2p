@@ -1,7 +1,7 @@
 syntax = "proto2";
 package pb;
 
-option go_package = "github.com/libp2p/go-libp2p/p2p/security/noise/pb";
+option go_package = "github.com/MultiverseChronicles/go-libp2p/p2p/security/noise/pb";
 
 message NoiseExtensions {
 	repeated bytes webtransport_certhashes = 1;

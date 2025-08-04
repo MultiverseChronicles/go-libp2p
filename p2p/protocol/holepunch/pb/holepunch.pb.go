@@ -140,7 +140,7 @@ const file_p2p_protocol_holepunch_pb_holepunch_proto_rawDesc = "" +
 	"\bObsAddrs\x18\x02 \x03(\fR\bObsAddrs\"\x1e\n" +
 	"\x04Type\x12\v\n" +
 	"\aCONNECT\x10d\x12\t\n" +
-	"\x04SYNC\x10\xac\x02B7Z5github.com/libp2p/go-libp2p/p2p/protocol/holepunch/pb"
+	"\x04SYNC\x10\xac\x02B7Z5github.com/MultiverseChronicles/go-libp2p/p2p/protocol/holepunch/pb"
 
 var (
 	file_p2p_protocol_holepunch_pb_holepunch_proto_rawDescOnce sync.Once

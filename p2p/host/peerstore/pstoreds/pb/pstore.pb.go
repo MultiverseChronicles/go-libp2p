@@ -219,7 +219,7 @@ const file_p2p_host_peerstore_pstoreds_pb_pstore_proto_rawDesc = "" +
 	"\x03ttl\x18\x03 \x01(\x03R\x03ttl\x1a5\n" +
 	"\x0fCertifiedRecord\x12\x10\n" +
 	"\x03seq\x18\x01 \x01(\x04R\x03seq\x12\x10\n" +
-	"\x03raw\x18\x02 \x01(\fR\x03rawB<Z:github.com/libp2p/go-libp2p/p2p/host/peerstore/pstoreds/pbb\x06proto3"
+	"\x03raw\x18\x02 \x01(\fR\x03rawB<Z:github.com/MultiverseChronicles/go-libp2p/p2p/host/peerstore/pstoreds/pbb\x06proto3"
 
 var (
 	file_p2p_host_peerstore_pstoreds_pb_pstore_proto_rawDescOnce sync.Once

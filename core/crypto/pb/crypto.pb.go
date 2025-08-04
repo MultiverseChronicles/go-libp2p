@@ -203,7 +203,7 @@ const file_core_crypto_pb_crypto_proto_rawDesc = "" +
 	"\x03RSA\x10\x00\x12\v\n" +
 	"\aEd25519\x10\x01\x12\r\n" +
 	"\tSecp256k1\x10\x02\x12\t\n" +
-	"\x05ECDSA\x10\x03B,Z*github.com/libp2p/go-libp2p/core/crypto/pb"
+	"\x05ECDSA\x10\x03B,Z*github.com/MultiverseChronicles/go-libp2p/core/crypto/pb"
 
 var (
 	file_core_crypto_pb_crypto_proto_rawDescOnce sync.Once

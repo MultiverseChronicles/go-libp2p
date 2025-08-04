@@ -52,19 +52,19 @@ Examples can be found in the [examples folder](examples).
 ## Dashboards
 
 We provide prebuilt Grafana dashboards so that applications can better monitor libp2p in production.
-You can find the [dashboard JSON files here](https://github.com/libp2p/go-libp2p/tree/master/dashboards).
+You can find the [dashboard JSON files here](https://github.com/MultiverseChronicles/go-libp2p/tree/master/dashboards).
 
-We also have live [Public Dashboards](https://github.com/libp2p/go-libp2p/tree/master/dashboards/README.md#public-dashboards) that you can check out to see real time monitoring in action.
+We also have live [Public Dashboards](https://github.com/MultiverseChronicles/go-libp2p/tree/master/dashboards/README.md#public-dashboards) that you can check out to see real time monitoring in action.
 
 
 # Contribute
 
-go-libp2p is MIT-licensed open source software. We welcome contributions big and small! Take a look at the [community contributing notes](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md). Please make sure to check the [issues](https://github.com/libp2p/go-libp2p/issues). Search the closed ones before reporting things, and help us with the open ones.
+go-libp2p is MIT-licensed open source software. We welcome contributions big and small! Take a look at the [community contributing notes](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md). Please make sure to check the [issues](https://github.com/MultiverseChronicles/go-libp2p/issues). Search the closed ones before reporting things, and help us with the open ones.
 
 Guidelines:
 
 - read the [libp2p spec](https://github.com/libp2p/specs)
-- ask questions or talk about things in our [discussion forums](https://discuss.libp2p.io), or open an [issue](https://github.com/libp2p/go-libp2p/issues) for bug reports, or #libp2p-implementers on [Filecoin slack](https://filecoin.io/slack).
+- ask questions or talk about things in our [discussion forums](https://discuss.libp2p.io), or open an [issue](https://github.com/MultiverseChronicles/go-libp2p/issues) for bug reports, or #libp2p-implementers on [Filecoin slack](https://filecoin.io/slack).
 - ensure you are able to contribute (no legal issues please -- we use the DCO)
 - get in touch with @libp2p/go-libp2p-maintainers about how best to contribute
 - No drive-by contributions seeking to collect airdrops.

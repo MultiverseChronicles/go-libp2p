@@ -97,7 +97,7 @@ const file_p2p_protocol_circuitv2_pb_voucher_proto_rawDesc = "" +
 	"expiration\x88\x01\x01B\b\n" +
 	"\x06_relayB\a\n" +
 	"\x05_peerB\r\n" +
-	"\v_expirationB7Z5github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/pbb\x06proto3"
+	"\v_expirationB7Z5github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/pbb\x06proto3"
 
 var (
 	file_p2p_protocol_circuitv2_pb_voucher_proto_rawDescOnce sync.Once

@@ -562,7 +562,7 @@ const file_p2p_protocol_circuitv2_pb_circuit_proto_rawDesc = "" +
 	"\x11CONNECTION_FAILED\x10\xcb\x01\x12\x13\n" +
 	"\x0eNO_RESERVATION\x10\xcc\x01\x12\x16\n" +
 	"\x11MALFORMED_MESSAGE\x10\x90\x03\x12\x17\n" +
-	"\x12UNEXPECTED_MESSAGE\x10\x91\x03B7Z5github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/pbb\x06proto3"
+	"\x12UNEXPECTED_MESSAGE\x10\x91\x03B7Z5github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/pbb\x06proto3"
 
 var (
 	file_p2p_protocol_circuitv2_pb_circuit_proto_rawDescOnce sync.Once

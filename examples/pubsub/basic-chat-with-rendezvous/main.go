@@ -11,10 +11,10 @@ import (
 	"github.com/libp2p/go-libp2p"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/peer"
-	drouting "github.com/libp2p/go-libp2p/p2p/discovery/routing"
-	dutil "github.com/libp2p/go-libp2p/p2p/discovery/util"
+	"github.com/MultiverseChronicles/go-libp2p/core/host"
+	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	drouting "github.com/MultiverseChronicles/go-libp2p/p2p/discovery/routing"
+	dutil "github.com/MultiverseChronicles/go-libp2p/p2p/discovery/util"
 )
 
 var (

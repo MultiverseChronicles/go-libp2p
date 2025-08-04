@@ -8,11 +8,11 @@ import (
 	"syscall"
 
 	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/p2p/muxer/yamux"
-	tls "github.com/libp2p/go-libp2p/p2p/security/tls"
-	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
-	"github.com/libp2p/go-libp2p/p2p/transport/websocket"
+	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/p2p/muxer/yamux"
+	tls "github.com/MultiverseChronicles/go-libp2p/p2p/security/tls"
+	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcp"
+	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/websocket"
 
 	"github.com/multiformats/go-multiaddr"
 )

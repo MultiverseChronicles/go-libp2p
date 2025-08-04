@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	libp2pquic "github.com/libp2p/go-libp2p/p2p/transport/quic"
-	"github.com/libp2p/go-libp2p/p2p/transport/quicreuse"
-	webtransport "github.com/libp2p/go-libp2p/p2p/transport/webtransport"
+	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	libp2pquic "github.com/MultiverseChronicles/go-libp2p/p2p/transport/quic"
+	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/quicreuse"
+	webtransport "github.com/MultiverseChronicles/go-libp2p/p2p/transport/webtransport"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

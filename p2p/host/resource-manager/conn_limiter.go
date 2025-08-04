@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/libp2p/go-libp2p/x/rate"
+	"github.com/MultiverseChronicles/go-libp2p/x/rate"
 )
 
 type ConnLimitPerSubnet struct {
