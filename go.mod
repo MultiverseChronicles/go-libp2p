@@ -3,9 +3,9 @@ module github.com/MultiverseChronicles/go-libp2p
 go 1.24.0
 
 require (
-	github.com/MultiverseChronicles/go-libp2p/core/crypto v0.0.0-20250804153901-e8b7fcc1efad
-	github.com/MultiverseChronicles/go-libp2p/core/internal/catch v0.0.0-20250804153901-e8b7fcc1efad
-	github.com/MultiverseChronicles/go-libp2p/core/test v0.0.0-20250804153901-e8b7fcc1efad
+	github.com/MultiverseChronicles/go-libp2p/core/crypto v0.0.0-20250804165807-445556b35ecb
+	github.com/MultiverseChronicles/go-libp2p/core/internal/catch v0.0.0-20250804165807-445556b35ecb
+	github.com/MultiverseChronicles/go-libp2p/core/test v0.0.0-20250804165807-445556b35ecb
 	github.com/benbjohnson/clock v1.3.5
 	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c
 	github.com/flynn/noise v1.1.0
