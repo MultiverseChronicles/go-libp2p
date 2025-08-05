@@ -111,3 +111,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
+
+replace github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core v0.1.0
