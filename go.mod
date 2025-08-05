@@ -1,26 +1,18 @@
-module github.com/MultiverseChronicles/libp2p
+module github.com/MultiverseChronicles/go-libp2p
 
 go 1.24.0
-
-replace (
-    github.com/libp2p/go-libp2p => github.com/MultiverseChronicles/go-libp2p v0.23.0
-    github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core v.0.1.0
-    github.com/multiformats/go-multiaddr => github.com/MultiverseChronicles/go-multiaddr v1.1.0
-)
-
 
 require (
 	github.com/MultiverseChronicles/go-buffer-pool v0.1.0
 	github.com/MultiverseChronicles/go-flow-metrics v0.4.0
-	github.com/MultiverseChronicles/go-libp2p v0.23.0
-	github.com/MultiverseChronicles/go-libp2p-asn-util v0.0.0-20250805001707-966ef45f1e8a
+	github.com/MultiverseChronicles/go-libp2p-asn-util v0.1.0
 	github.com/MultiverseChronicles/go-libp2p-testing v0.0.0-20250804161105-e9998f132a3d
-	github.com/MultiverseChronicles/go-libp2p/core/crypto v0.0.0-20250805004138-0630c04a9e66
-	github.com/MultiverseChronicles/go-libp2p/core/internal/catch v0.0.0-20250805004138-0630c04a9e66
-	github.com/MultiverseChronicles/go-libp2p/core/test v0.0.0-20250805004138-0630c04a9e66
+	github.com/MultiverseChronicles/go-libp2p/core/crypto v0.0.0-20250805022309-7c00a21364bf
+	github.com/MultiverseChronicles/go-libp2p/core/internal/catch v0.0.0-20250805022309-7c00a21364bf
+	github.com/MultiverseChronicles/go-libp2p/core/test v0.0.0-20250805022309-7c00a21364bf
 	github.com/MultiverseChronicles/go-msgio v0.0.0-20250804160435-e8de01431b56
 	github.com/MultiverseChronicles/go-netroute v0.0.0-20250805000832-fd622bc5f8f4
-	github.com/MultiverseChronicles/go-reuseport v0.0.0-20250805001310-132baf3fae6f
+	github.com/MultiverseChronicles/go-reuseport v0.1.0
 	github.com/MultiverseChronicles/go-yamux/v5 v5.0.0-20250805003647-a64f6c5a6c0c
 	github.com/MultiverseChronicles/zeroconf/v2 v2.0.0-20250805000635-049c20850119
 	github.com/benbjohnson/clock v1.3.5
@@ -78,26 +70,20 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0 // indirect
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0 // indirect
 	github.com/filecoin-project/go-clock v0.1.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.6 // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
-	github.com/libp2p/go-flow-metrics v0.3.0 // indirect
-	github.com/libp2p/go-libp2p-asn-util v0.4.1 // indirect
-	github.com/libp2p/go-libp2p-testing v0.12.0 // indirect
 	github.com/libp2p/go-msgio v0.3.0 // indirect
-	github.com/libp2p/go-netroute v0.2.2 // indirect
-	github.com/libp2p/go-reuseport v0.4.0 // indirect
-	github.com/libp2p/go-yamux/v5 v5.1.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/miekg/dns v1.1.66 // indirect
+	github.com/miekg/dns v1.1.43 // indirect
 	github.com/mikioh/tcpopt v0.0.0-20190314235656-172688c1accc // indirect
 	github.com/minio/sha256-simd v1.0.1 // indirect
 	github.com/multiformats/go-base36 v0.2.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/pion/dtls/v2 v2.2.12 // indirect
+	github.com/pion/dtls/v2 v2.2.7 // indirect
 	github.com/pion/dtls/v3 v3.0.6 // indirect
 	github.com/pion/interceptor v0.1.40 // indirect
 	github.com/pion/mdns/v2 v2.0.7 // indirect
@@ -107,9 +93,9 @@ require (
 	github.com/pion/sdp/v3 v3.0.14 // indirect
 	github.com/pion/srtp/v3 v3.0.6 // indirect
 	github.com/pion/stun/v3 v3.0.0 // indirect
-	github.com/pion/transport/v2 v2.2.10 // indirect
+	github.com/pion/transport/v2 v2.2.1 // indirect
 	github.com/pion/transport/v3 v3.0.7 // indirect
-	github.com/pion/turn/v4 v4.0.2 // indirect
+	github.com/pion/turn/v4 v4.0.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/common v0.65.0 // indirect
 	github.com/prometheus/procfs v0.16.1 // indirect
@@ -118,12 +104,10 @@ require (
 	github.com/wlynxg/anet v0.0.5 // indirect
 	go.uber.org/dig v1.19.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/exp v0.0.0-20250606033433-dcc06ee1d476 // indirect
+	golang.org/x/exp v0.0.0-20231214170342-aacd6d4b4611 // indirect
 	golang.org/x/mod v0.26.0 // indirect
 	golang.org/x/net v0.42.0 // indirect
 	golang.org/x/text v0.27.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	lukechampine.com/blake3 v1.4.1 // indirect
+	lukechampine.com/blake3 v1.2.1 // indirect
 )
-
-replace github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core latest
