@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	pool "github.com/libp2p/go-buffer-pool"
+	pool "github.com/MultiverseChronicles/go-buffer-pool"
 	"golang.org/x/crypto/chacha20poly1305"
 )
 

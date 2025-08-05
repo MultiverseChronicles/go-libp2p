@@ -1,5 +1,5 @@
 // Package libp2pwebrtc implements the WebRTC transport for go-libp2p,
-// as described in https://github.com/libp2p/specs/tree/master/webrtc.
+// as described in https://github.com/MultiverseChronicles/specs/tree/master/webrtc.
 package libp2pwebrtc
 
 import (
@@ -28,7 +28,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/p2p/security/noise"
 	libp2pquic "github.com/MultiverseChronicles/go-libp2p/p2p/transport/quic"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/webrtc/pb"
-	"github.com/libp2p/go-msgio"
+	"github.com/MultiverseChronicles/go-msgio"
 
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"

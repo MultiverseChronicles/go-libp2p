@@ -14,7 +14,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/core/network"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/autonatv2/pb"
-	"github.com/libp2p/go-msgio/pbio"
+	"github.com/MultiverseChronicles/go-msgio/pbio"
 	ma "github.com/multiformats/go-multiaddr"
 )
 

@@ -4,7 +4,7 @@ package metrics
 import (
 	"time"
 
-	"github.com/libp2p/go-flow-metrics"
+	"github.com/MultiverseChronicles/go-flow-metrics"
 
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 	"github.com/MultiverseChronicles/go-libp2p/core/protocol"

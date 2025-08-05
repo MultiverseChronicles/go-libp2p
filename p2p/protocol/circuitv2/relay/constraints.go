@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	asnutil "github.com/libp2p/go-libp2p-asn-util"
+	asnutil "github.com/MultiverseChronicles/go-libp2p-asn-util"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 
 	ma "github.com/multiformats/go-multiaddr"

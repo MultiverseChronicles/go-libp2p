@@ -8,14 +8,14 @@ import (
 	"os"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	"github.com/MultiverseChronicles/go-libp2p/core/network"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
 	drouting "github.com/MultiverseChronicles/go-libp2p/p2p/discovery/routing"
 	dutil "github.com/MultiverseChronicles/go-libp2p/p2p/discovery/util"
 
-	dht "github.com/libp2p/go-libp2p-kad-dht"
+	dht "github.com/MultiverseChronicles/go-libp2p-kad-dht"
 	"github.com/multiformats/go-multiaddr"
 
 	"github.com/ipfs/go-log/v2"

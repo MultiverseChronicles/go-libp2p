@@ -3,7 +3,7 @@ package reuseport
 import (
 	"net"
 
-	"github.com/libp2p/go-reuseport"
+	"github.com/MultiverseChronicles/go-reuseport"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 )

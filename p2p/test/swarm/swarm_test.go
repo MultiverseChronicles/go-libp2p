@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	"github.com/MultiverseChronicles/go-libp2p/core/network"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"

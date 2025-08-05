@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcp"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/websocket"
 

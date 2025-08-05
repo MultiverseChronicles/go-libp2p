@@ -10,7 +10,7 @@ import (
 	"log"
 	mrand "math/rand"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
 	"github.com/MultiverseChronicles/go-libp2p/core/host"
 	"github.com/MultiverseChronicles/go-libp2p/core/network"
@@ -20,7 +20,7 @@ import (
 	dsync "github.com/ipfs/go-datastore/sync"
 	golog "github.com/ipfs/go-log/v2"
 
-	dht "github.com/libp2p/go-libp2p-kad-dht"
+	dht "github.com/MultiverseChronicles/go-libp2p-kad-dht"
 	rhost "github.com/MultiverseChronicles/go-libp2p/p2p/host/routed"
 	ma "github.com/multiformats/go-multiaddr"
 )

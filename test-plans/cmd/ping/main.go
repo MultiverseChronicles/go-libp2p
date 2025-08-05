@@ -18,7 +18,7 @@ import (
 	libp2pwebrtc "github.com/MultiverseChronicles/go-libp2p/p2p/transport/webrtc"
 
 	"github.com/go-redis/redis/v8"
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/muxer/yamux"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/ping"

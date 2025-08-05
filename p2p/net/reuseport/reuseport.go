@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/libp2p/go-reuseport"
+	"github.com/MultiverseChronicles/go-reuseport"
 )
 
 var fallbackDialer net.Dialer

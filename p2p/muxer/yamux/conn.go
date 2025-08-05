@@ -5,7 +5,7 @@ import (
 
 	"github.com/MultiverseChronicles/go-libp2p/core/network"
 
-	"github.com/libp2p/go-yamux/v5"
+	"github.com/MultiverseChronicles/go-yamux/v5"
 )
 
 // conn implements mux.MuxedConn over yamux.Session.

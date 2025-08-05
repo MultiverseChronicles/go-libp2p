@@ -17,7 +17,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/p2p/host/eventbus"
 	libp2pwebrtc "github.com/MultiverseChronicles/go-libp2p/p2p/transport/webrtc"
 	libp2pwebtransport "github.com/MultiverseChronicles/go-libp2p/p2p/transport/webtransport"
-	"github.com/libp2p/go-netroute"
+	"github.com/MultiverseChronicles/go-netroute"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 	"github.com/prometheus/client_golang/prometheus"

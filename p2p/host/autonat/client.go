@@ -10,7 +10,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/host/autonat/pb"
 
-	"github.com/libp2p/go-msgio/pbio"
+	"github.com/MultiverseChronicles/go-msgio/pbio"
 )
 
 // NewAutoNATClient creates a fresh instance of an AutoNATClient

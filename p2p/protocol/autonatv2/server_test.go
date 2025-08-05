@@ -19,7 +19,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm"
 	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/autonatv2/pb"
-	"github.com/libp2p/go-msgio/pbio"
+	"github.com/MultiverseChronicles/go-msgio/pbio"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/multiformats/go-varint"
 	"github.com/stretchr/testify/require"

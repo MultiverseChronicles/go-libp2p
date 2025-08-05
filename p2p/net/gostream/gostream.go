@@ -1,5 +1,5 @@
 // Package gostream allows to replace the standard net stack in Go
-// with [LibP2P](https://github.com/libp2p/libp2p) streams.
+// with [LibP2P](https://github.com/MultiverseChronicles/libp2p) streams.
 //
 // Given a libp2p.Host, gostream provides Dial() and Listen() methods which
 // return implementations of net.Conn and net.Listener.

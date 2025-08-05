@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	"github.com/MultiverseChronicles/go-libp2p/core/event"
 	"github.com/MultiverseChronicles/go-libp2p/core/host"
 	"github.com/MultiverseChronicles/go-libp2p/core/network"

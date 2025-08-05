@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"net"
 
-	"github.com/libp2p/go-netroute"
+	"github.com/MultiverseChronicles/go-netroute"
 )
 
 type dialer struct {

@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/libp2p/go-reuseport"
+	"github.com/MultiverseChronicles/go-reuseport"
 )
 
 // envReuseport is the env variable name used to turn off reuse port.

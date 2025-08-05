@@ -24,7 +24,7 @@ import (
 
 	libp2ptls "github.com/MultiverseChronicles/go-libp2p/p2p/security/tls"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	"github.com/MultiverseChronicles/go-libp2p/config"
 	"github.com/MultiverseChronicles/go-libp2p/core/connmgr"
 	"github.com/MultiverseChronicles/go-libp2p/core/event"

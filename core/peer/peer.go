@@ -25,7 +25,7 @@ var (
 //
 // WARNING: This flag will likely be set to false in the future and eventually
 // be removed in favor of using a hash function specified by the key itself.
-// See: https://github.com/libp2p/specs/issues/138
+// See: https://github.com/MultiverseChronicles/specs/issues/138
 //
 // DO NOT change this flag unless you know what you're doing.
 //

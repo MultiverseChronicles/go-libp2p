@@ -16,7 +16,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/core/sec"
 	"github.com/MultiverseChronicles/go-libp2p/core/sec/insecure/pb"
 
-	"github.com/libp2p/go-msgio"
+	"github.com/MultiverseChronicles/go-msgio"
 
 	"google.golang.org/protobuf/proto"
 )

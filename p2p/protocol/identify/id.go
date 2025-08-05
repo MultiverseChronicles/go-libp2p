@@ -25,7 +25,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/x/rate"
 
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/libp2p/go-msgio/pbio"
+	"github.com/MultiverseChronicles/go-msgio/pbio"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 	msmux "github.com/multiformats/go-multistream"

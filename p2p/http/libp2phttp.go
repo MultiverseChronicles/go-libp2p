@@ -1,5 +1,5 @@
 // HTTP semantics with libp2p. Can use a libp2p stream transport or stock HTTP
-// transports. This API is experimental and will likely change soon. Implements [libp2p spec #508](https://github.com/libp2p/specs/pull/508).
+// transports. This API is experimental and will likely change soon. Implements [libp2p spec #508](https://github.com/MultiverseChronicles/specs/pull/508).
 package libp2phttp
 
 import (

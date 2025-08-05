@@ -4,8 +4,8 @@ go 1.23
 
 require (
 	github.com/gdamore/tcell/v2 v2.5.2
-	github.com/libp2p/go-libp2p v0.33.0
-	github.com/libp2p/go-libp2p-pubsub v0.10.0
+	github.com/MultiverseChronicles/go-libp2p v0.33.0
+	github.com/MultiverseChronicles/go-libp2p-pubsub v0.10.0
 	github.com/rivo/tview v0.0.0-20220307222120-9994674d60a8
 )
 
@@ -37,15 +37,15 @@ require (
 	github.com/klauspost/compress v1.17.6 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
 	github.com/koron/go-ssdp v0.0.4 // indirect
-	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
-	github.com/libp2p/go-flow-metrics v0.1.0 // indirect
-	github.com/libp2p/go-libp2p-asn-util v0.4.1 // indirect
-	github.com/libp2p/go-msgio v0.3.0 // indirect
-	github.com/libp2p/go-nat v0.2.0 // indirect
-	github.com/libp2p/go-netroute v0.2.1 // indirect
-	github.com/libp2p/go-reuseport v0.4.0 // indirect
-	github.com/libp2p/go-yamux/v4 v4.0.1 // indirect
-	github.com/libp2p/zeroconf/v2 v2.2.0 // indirect
+	github.com/MultiverseChronicles/go-buffer-pool v0.1.0 // indirect
+	github.com/MultiverseChronicles/go-flow-metrics v0.1.0 // indirect
+	github.com/MultiverseChronicles/go-libp2p-asn-util v0.4.1 // indirect
+	github.com/MultiverseChronicles/go-msgio v0.3.0 // indirect
+	github.com/MultiverseChronicles/go-nat v0.2.0 // indirect
+	github.com/MultiverseChronicles/go-netroute v0.2.1 // indirect
+	github.com/MultiverseChronicles/go-reuseport v0.4.0 // indirect
+	github.com/MultiverseChronicles/go-yamux/v4 v4.0.1 // indirect
+	github.com/MultiverseChronicles/zeroconf/v2 v2.2.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/marten-seemann/tcp v0.0.0-20210406111302-dfbc87cc63fd // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect

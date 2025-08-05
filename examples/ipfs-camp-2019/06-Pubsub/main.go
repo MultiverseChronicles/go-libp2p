@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/libp2p/go-libp2p"
-	kaddht "github.com/libp2p/go-libp2p-kad-dht"
+	"github.com/MultiverseChronicles/go-libp2p"
+	kaddht "github.com/MultiverseChronicles/go-libp2p-kad-dht"
 	"github.com/MultiverseChronicles/go-libp2p/core/host"
 	"github.com/MultiverseChronicles/go-libp2p/core/network"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"

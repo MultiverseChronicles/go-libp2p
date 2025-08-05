@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
 	"github.com/MultiverseChronicles/go-libp2p/core/event"
 	"github.com/MultiverseChronicles/go-libp2p/core/host"
@@ -31,8 +31,8 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/identify/pb"
 
 	mockClock "github.com/benbjohnson/clock"
-	"github.com/libp2p/go-libp2p-testing/race"
-	"github.com/libp2p/go-msgio/pbio"
+	"github.com/MultiverseChronicles/go-libp2p-testing/race"
+	"github.com/MultiverseChronicles/go-msgio/pbio"
 	ma "github.com/multiformats/go-multiaddr"
 	matest "github.com/multiformats/go-multiaddr/matest"
 	"github.com/stretchr/testify/require"

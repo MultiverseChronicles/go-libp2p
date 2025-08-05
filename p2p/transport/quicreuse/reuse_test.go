@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-netroute"
+	"github.com/MultiverseChronicles/go-netroute"
 	"github.com/stretchr/testify/require"
 )
 

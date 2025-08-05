@@ -11,8 +11,8 @@ import (
 	"github.com/ipfs/go-log/v2"
 
 	p2pforge "github.com/ipshipyard/p2p-forge/client"
-	"github.com/libp2p/go-libp2p"
-	dht "github.com/libp2p/go-libp2p-kad-dht"
+	"github.com/MultiverseChronicles/go-libp2p"
+	dht "github.com/MultiverseChronicles/go-libp2p-kad-dht"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcp"
 	ws "github.com/MultiverseChronicles/go-libp2p/p2p/transport/websocket"
 )
@@ -106,7 +106,7 @@ func main() {
 		// Configure the WS transport with the AutoTLS cert manager
 		libp2p.Transport(ws.New, ws.WithTLSConfig(certManager.TLSConfig())),
 
-		// Configure user agent for libp2p identify protocol (https://github.com/libp2p/specs/blob/master/identify/README.md)
+		// Configure user agent for libp2p identify protocol (https://github.com/MultiverseChronicles/specs/blob/master/identify/README.md)
 		libp2p.UserAgent(userAgent),
 
 		// AddrsFactory takes the multiaddrs we're listening on and sets the multiaddrs to advertise to the network.

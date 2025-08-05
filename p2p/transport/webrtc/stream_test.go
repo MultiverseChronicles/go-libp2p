@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/webrtc/pb"
-	"github.com/libp2p/go-msgio/pbio"
+	"github.com/MultiverseChronicles/go-msgio/pbio"
 	"google.golang.org/protobuf/proto"
 
 	"github.com/MultiverseChronicles/go-libp2p/core/network"

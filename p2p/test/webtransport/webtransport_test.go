@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
 	"github.com/MultiverseChronicles/go-libp2p/core/test"
 	libp2pwebtransport "github.com/MultiverseChronicles/go-libp2p/p2p/transport/webtransport"

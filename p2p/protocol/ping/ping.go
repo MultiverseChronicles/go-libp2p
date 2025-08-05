@@ -11,7 +11,7 @@ import (
 	"time"
 
 	logging "github.com/ipfs/go-log/v2"
-	pool "github.com/libp2p/go-buffer-pool"
+	pool "github.com/MultiverseChronicles/go-buffer-pool"
 	"github.com/MultiverseChronicles/go-libp2p/core/host"
 	"github.com/MultiverseChronicles/go-libp2p/core/network"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"

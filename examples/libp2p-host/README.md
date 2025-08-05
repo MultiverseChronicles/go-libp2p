@@ -6,7 +6,7 @@ The host is an abstraction that manages services on top of a swarm. It provides 
 
 If you want to create a host with a default configuration refer to the example in `./host.go`
 
-If you want more control over the configuration, you can specify some options to the constructor. For a full list of all the configuration supported by the constructor [see the different options in the docs](https://godoc.org/github.com/libp2p/go-libp2p).
+If you want more control over the configuration, you can specify some options to the constructor. For a full list of all the configuration supported by the constructor [see the different options in the docs](https://godoc.org/github.com/MultiverseChronicles/go-libp2p).
 
 In `./host.go` we set a number of useful options like a custom ID and enable routing. This will improve discoverability and reachability of the peer on NAT'ed environments.
 

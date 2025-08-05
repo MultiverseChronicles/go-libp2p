@@ -192,7 +192,7 @@ func testPrefer(t *testing.T, listen, prefer, avoid ma.Multiaddr) {
 
 func TestV6V4(t *testing.T) {
 	if runtime.GOOS == "darwin" {
-		t.Skip("This test is failing on OSX: https://github.com/libp2p/go-reuseport-transport/issues/40")
+		t.Skip("This test is failing on OSX: https://github.com/MultiverseChronicles/go-reuseport-transport/issues/40")
 	}
 	testUseFirst(t, loopbackV4, loopbackV4, loopbackV6)
 	testUseFirst(t, loopbackV6, loopbackV6, loopbackV4)

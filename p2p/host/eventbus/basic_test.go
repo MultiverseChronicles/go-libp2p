@@ -12,7 +12,7 @@ import (
 
 	"github.com/MultiverseChronicles/go-libp2p/core/event"
 
-	"github.com/libp2p/go-libp2p-testing/race"
+	"github.com/MultiverseChronicles/go-libp2p-testing/race"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

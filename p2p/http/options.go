@@ -17,7 +17,7 @@ func PreferHTTPTransport(o roundTripperOpts) roundTripperOpts {
 
 // ServerMustAuthenticatePeerID tells the roundtripper constructor that we MUST
 // authenticate the Server's PeerID. Note: this currently means we can not use a
-// native HTTP transport (HTTP peer id authentication is not yet implemented: https://github.com/libp2p/specs/pull/564).
+// native HTTP transport (HTTP peer id authentication is not yet implemented: https://github.com/MultiverseChronicles/specs/pull/564).
 func ServerMustAuthenticatePeerID(o roundTripperOpts) roundTripperOpts {
 	o.serverMustAuthenticatePeerID = true
 	return o

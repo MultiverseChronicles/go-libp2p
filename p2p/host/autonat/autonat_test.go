@@ -13,7 +13,7 @@ import (
 	bhost "github.com/MultiverseChronicles/go-libp2p/p2p/host/blank"
 	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 
-	"github.com/libp2p/go-msgio/pbio"
+	"github.com/MultiverseChronicles/go-msgio/pbio"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

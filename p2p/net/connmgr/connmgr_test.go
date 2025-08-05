@@ -476,7 +476,7 @@ func TestGracePeriod(t *testing.T) {
 	}
 }
 
-// see https://github.com/libp2p/go-libp2p-connmgr/issues/23
+// see https://github.com/MultiverseChronicles/go-libp2p-connmgr/issues/23
 func TestQuickBurstRespectsSilencePeriod(t *testing.T) {
 	mockClock := clock.NewMock()
 	cm, err := NewConnManager(10, 20, WithGracePeriod(0), WithClock(mockClock))
@@ -788,7 +788,7 @@ func TestTemporaryEntryConvertedOnConnection(t *testing.T) {
 	}
 }
 
-// see https://github.com/libp2p/go-libp2p-connmgr/issues/82
+// see https://github.com/MultiverseChronicles/go-libp2p-connmgr/issues/82
 func TestConcurrentCleanupAndTagging(t *testing.T) {
 	cm, err := NewConnManager(1, 1, WithGracePeriod(0), WithSilencePeriod(time.Millisecond))
 	require.NoError(t, err)

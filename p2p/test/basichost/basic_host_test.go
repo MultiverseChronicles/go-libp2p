@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	"github.com/MultiverseChronicles/go-libp2p/core/host"
 	"github.com/MultiverseChronicles/go-libp2p/core/network"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
@@ -226,7 +226,7 @@ func TestOnlyWebRTCDirectDialNoDelay(t *testing.T) {
 }
 
 func TestWebRTCWithQUICManyConnections(t *testing.T) {
-	// Correctly fixes: https://github.com/libp2p/js-libp2p/issues/2805
+	// Correctly fixes: https://github.com/MultiverseChronicles/js-libp2p/issues/2805
 
 	// The server has both /quic-v1 and /webrtc-direct listen addresses
 	h, err := libp2p.New(

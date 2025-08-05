@@ -4,7 +4,7 @@ package holepunch.pb;
 
 option go_package = "github.com/MultiverseChronicles/go-libp2p/p2p/protocol/holepunch/pb";
 
-// spec: https://github.com/libp2p/specs/blob/master/relay/DCUtR.md
+// spec: https://github.com/MultiverseChronicles/specs/blob/master/relay/DCUtR.md
 message HolePunch {
   enum Type {
     CONNECT = 100;

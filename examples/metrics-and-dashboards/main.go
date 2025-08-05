@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/MultiverseChronicles/go-libp2p"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/ping"
 	"github.com/prometheus/client_golang/prometheus"

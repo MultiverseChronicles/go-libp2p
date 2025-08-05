@@ -19,7 +19,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/util"
 
 	logging "github.com/ipfs/go-log/v2"
-	pool "github.com/libp2p/go-buffer-pool"
+	pool "github.com/MultiverseChronicles/go-buffer-pool"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 )

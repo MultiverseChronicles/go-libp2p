@@ -12,7 +12,7 @@ import (
 	"time"
 
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/libp2p/go-netroute"
+	"github.com/MultiverseChronicles/go-netroute"
 )
 
 var log = logging.Logger("internal/nat")

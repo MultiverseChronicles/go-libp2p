@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	pool "github.com/libp2p/go-buffer-pool"
-	"github.com/libp2p/go-msgio/pbio"
+	pool "github.com/MultiverseChronicles/go-buffer-pool"
+	"github.com/MultiverseChronicles/go-msgio/pbio"
 	"github.com/multiformats/go-varint"
 	"google.golang.org/protobuf/proto"
 )

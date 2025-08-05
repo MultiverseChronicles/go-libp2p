@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
-	pubsub "github.com/libp2p/go-libp2p-pubsub"
+	"github.com/MultiverseChronicles/go-libp2p"
+	pubsub "github.com/MultiverseChronicles/go-libp2p-pubsub"
 	"github.com/MultiverseChronicles/go-libp2p/core/host"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/discovery/mdns"

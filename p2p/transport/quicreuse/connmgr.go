@@ -13,7 +13,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/libp2p/go-netroute"
+	"github.com/MultiverseChronicles/go-netroute"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 	"github.com/prometheus/client_golang/prometheus"

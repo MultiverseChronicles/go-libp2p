@@ -4,7 +4,7 @@ go 1.23.8
 
 require (
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/libp2p/go-libp2p v0.0.0
+	github.com/MultiverseChronicles/go-libp2p v0.0.0
 	github.com/multiformats/go-multiaddr v0.16.0
 )
 
@@ -28,13 +28,13 @@ require (
 	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
 	github.com/koron/go-ssdp v0.0.6 // indirect
-	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
-	github.com/libp2p/go-flow-metrics v0.2.0 // indirect
-	github.com/libp2p/go-libp2p-asn-util v0.4.1 // indirect
-	github.com/libp2p/go-msgio v0.3.0 // indirect
-	github.com/libp2p/go-netroute v0.2.2 // indirect
-	github.com/libp2p/go-reuseport v0.4.0 // indirect
-	github.com/libp2p/go-yamux/v5 v5.0.1 // indirect
+	github.com/MultiverseChronicles/go-buffer-pool v0.1.0 // indirect
+	github.com/MultiverseChronicles/go-flow-metrics v0.2.0 // indirect
+	github.com/MultiverseChronicles/go-libp2p-asn-util v0.4.1 // indirect
+	github.com/MultiverseChronicles/go-msgio v0.3.0 // indirect
+	github.com/MultiverseChronicles/go-netroute v0.2.2 // indirect
+	github.com/MultiverseChronicles/go-reuseport v0.4.0 // indirect
+	github.com/MultiverseChronicles/go-yamux/v5 v5.0.1 // indirect
 	github.com/marten-seemann/tcp v0.0.0-20210406111302-dfbc87cc63fd // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/miekg/dns v1.1.66 // indirect
@@ -100,4 +100,4 @@ require (
 	lukechampine.com/blake3 v1.4.1 // indirect
 )
 
-replace github.com/libp2p/go-libp2p => ../
+replace github.com/MultiverseChronicles/go-libp2p => ../

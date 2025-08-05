@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/gob"
 
-	pool "github.com/libp2p/go-buffer-pool"
+	pool "github.com/MultiverseChronicles/go-buffer-pool"
 	"github.com/MultiverseChronicles/go-libp2p/core/peer"
 	pstore "github.com/MultiverseChronicles/go-libp2p/core/peerstore"
 	"github.com/MultiverseChronicles/go-libp2p/core/protocol"

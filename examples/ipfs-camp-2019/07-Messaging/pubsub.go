@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/gogo/protobuf/proto"
-	pubsub "github.com/libp2p/go-libp2p-pubsub"
+	pubsub "github.com/MultiverseChronicles/go-libp2p-pubsub"
 	peer "github.com/MultiverseChronicles/go-libp2p/core/peer"
 )
 

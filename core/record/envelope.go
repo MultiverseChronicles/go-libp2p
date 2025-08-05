@@ -10,7 +10,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/core/internal/catch"
 	"github.com/MultiverseChronicles/go-libp2p/core/record/pb"
 
-	pool "github.com/libp2p/go-buffer-pool"
+	pool "github.com/MultiverseChronicles/go-buffer-pool"
 
 	"github.com/multiformats/go-varint"
 	"google.golang.org/protobuf/proto"

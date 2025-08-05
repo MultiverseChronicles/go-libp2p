@@ -15,7 +15,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/p2p/security/noise/pb"
 
 	"github.com/flynn/noise"
-	pool "github.com/libp2p/go-buffer-pool"
+	pool "github.com/MultiverseChronicles/go-buffer-pool"
 	"google.golang.org/protobuf/proto"
 )
 

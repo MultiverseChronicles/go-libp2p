@@ -14,7 +14,7 @@ import (
 
 	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
 
-	pool "github.com/libp2p/go-buffer-pool"
+	pool "github.com/MultiverseChronicles/go-buffer-pool"
 )
 
 const PeerIDAuthScheme = "libp2p-PeerID"

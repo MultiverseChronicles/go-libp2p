@@ -10,7 +10,7 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p/core/pnet"
 
 	"github.com/davidlazar/go-crypto/salsa20"
-	pool "github.com/libp2p/go-buffer-pool"
+	pool "github.com/MultiverseChronicles/go-buffer-pool"
 )
 
 // we are using buffer pool as user needs their slice back

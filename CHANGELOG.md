@@ -135,7 +135,7 @@ This version was retracted due to errors when publishing the release.
 #### [Removed Circuit Relay v1](https://github.com/MultiverseChronicles/go-libp2p/pull/2107) <!-- omit in toc -->
 
 We've decided to remove support for Circuit Relay v1 in this release. v1 Relays have been retired a few months ago. Notably, running the Relay v1 protocol was expensive and resulted in only a small number of nodes in the network. Users had to either manually configure these nodes as static relays, or discover them from the DHT.
-Furthermore, rust-libp2p [has dropped support](https://github.com/libp2p/rust-libp2p/pull/2549) and js-libp2p [is dropping support](https://github.com/libp2p/js-libp2p/pull/1533) for Relay v1.
+Furthermore, rust-libp2p [has dropped support](https://github.com/MultiverseChronicles/rust-libp2p/pull/2549) and js-libp2p [is dropping support](https://github.com/MultiverseChronicles/js-libp2p/pull/1533) for Relay v1.
 
 Support for Relay v2 was first added in [late 2021 in v0.16.0](https://github.com/MultiverseChronicles/go-libp2p/releases/tag/v0.16.0). With Circuit Relay v2 it became cheap to run (limited) relays. Public nodes also started the relay service by default. There's now a massive number of Relay v2 nodes on the IPFS network, and they don't advertise their service to the DHT any more. Because there's now so many of these nodes, connecting to just a small number of nodes (e.g. by joining the DHT), a node is statistically guaranteed to connect to some relays.
 
@@ -175,13 +175,13 @@ Users reported seeing confusing error messages and could not determine the root 
 
 This error occurred when a connection had been made with a remote peer but the remote peer dropped the connection (due to it exceeding limits).
 This was actually an `Application error` emitted by `quic-go` and it was a bug in go-libp2p that we sent the whole message.
-For now, we decided to stop sending this confusing error message. In the future, we will report such errors via [error codes](https://github.com/libp2p/specs/issues/479).
+For now, we decided to stop sending this confusing error message. In the future, we will report such errors via [error codes](https://github.com/MultiverseChronicles/specs/issues/479).
 
 **Full Changelog**: https://github.com/MultiverseChronicles/go-libp2p/compare/v0.25.1...v0.26.0
 
 # [v0.25.1](https://github.com/MultiverseChronicles/go-libp2p/releases/tag/v0.25.1)
 
-Fix some test-utils used by https://github.com/libp2p/go-libp2p-kad-dht
+Fix some test-utils used by https://github.com/MultiverseChronicles/go-libp2p-kad-dht
 
 * mocknet: Start host in mocknet by @MarcoPolo in https://github.com/MultiverseChronicles/go-libp2p/pull/2078
 * chore: update go-multistream by @MarcoPolo in https://github.com/MultiverseChronicles/go-libp2p/pull/2081
@@ -207,7 +207,7 @@ So far, we were using GoGo Protobuf to compile our Protobuf definitions to Go co
 ### Removal of OpenSSL <!-- omit in toc -->
 
 Before this release, go-libp2p had an option to use OpenSSL bindings for certain cryptographic primitives, mostly to speed up the generation of signatures and their verification. When building go-libp2p using `go build`, we'd use the standard library crypto packages. OpenSSL was only used when passing in a build tag: `go build -tags openssl`.
-Maintaining our own fork of the long unmaintained [go-openssl package](https://github.com/libp2p/go-openssl) has proven to place a larger than expected maintenance burden on the libp2p stewards, and when we recently discovered a range of new bugs ([this](https://github.com/libp2p/go-openssl/issues/38) and [this](https://github.com/MultiverseChronicles/go-libp2p/issues/1892) and [this](https://github.com/MultiverseChronicles/go-libp2p/issues/1951)), we decided to re-evaluate if this code path is really worth it. The results surprised us, it turns out that:
+Maintaining our own fork of the long unmaintained [go-openssl package](https://github.com/MultiverseChronicles/go-openssl) has proven to place a larger than expected maintenance burden on the libp2p stewards, and when we recently discovered a range of new bugs ([this](https://github.com/MultiverseChronicles/go-openssl/issues/38) and [this](https://github.com/MultiverseChronicles/go-libp2p/issues/1892) and [this](https://github.com/MultiverseChronicles/go-libp2p/issues/1951)), we decided to re-evaluate if this code path is really worth it. The results surprised us, it turns out that:
 * The Go standard library is faster than OpenSSL for all key types that are not RSA.
 * Verifying RSA signatures is as fast as Ed25519 signatures using the Go standard library, and even faster in OpenSSL.
 * Generating RSA signatures is painfully slow, both using Go standard library crypto and using OpenSSL (but even slower using Go standard library).
