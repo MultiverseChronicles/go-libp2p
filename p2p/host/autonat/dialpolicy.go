@@ -3,7 +3,7 @@ package autonat
 import (
 	"net"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
+	"github.com/MultiverseChronicles/go-libp2p/host"
 
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"

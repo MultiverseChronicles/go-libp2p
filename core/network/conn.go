@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

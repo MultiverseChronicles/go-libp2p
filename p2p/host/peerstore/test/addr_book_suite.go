@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	pstore "github.com/MultiverseChronicles/go-libp2p/core/peerstore"
-	"github.com/MultiverseChronicles/go-libp2p/core/record"
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	pstore "github.com/MultiverseChronicles/go-libp2p/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/record"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 
 	mockClock "github.com/benbjohnson/clock"
 	"github.com/multiformats/go-multiaddr"

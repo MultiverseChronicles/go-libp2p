@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 // LatencyEWMASmoothing governs the decay of the EWMA (the speed

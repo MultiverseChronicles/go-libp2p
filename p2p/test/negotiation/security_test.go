@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/security/noise"
 	tls "github.com/MultiverseChronicles/go-libp2p/p2p/security/tls"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcp"

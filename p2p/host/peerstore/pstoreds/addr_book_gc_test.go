@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	pstore "github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	pstore "github.com/MultiverseChronicles/go-libp2p/peerstore"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/host/peerstore/test"
 
 	mockClock "github.com/benbjohnson/clock"

@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/connmgr"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/connmgr"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 
 	"github.com/benbjohnson/clock"
 )

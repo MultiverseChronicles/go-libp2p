@@ -16,9 +16,9 @@ import (
 
 	kaddht "github.com/MultiverseChronicles/go-libp2p-kad-dht"
 	pubsub "github.com/MultiverseChronicles/go-libp2p-pubsub"
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/routing"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/routing"
 
 	"github.com/multiformats/go-multiaddr"
 )

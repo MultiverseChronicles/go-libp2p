@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 	p2p "github.com/MultiverseChronicles/go-libp2p/examples/multipro/pb"
 
 	ggio "github.com/gogo/protobuf/io"

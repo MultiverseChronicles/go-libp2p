@@ -1,7 +1,7 @@
 package mocknet
 
 import (
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 )
 
 // StreamComplement returns the other end of the given stream. This function

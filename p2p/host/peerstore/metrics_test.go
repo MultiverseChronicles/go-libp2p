@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 )
 
 func TestLatencyEWMAFun(t *testing.T) {

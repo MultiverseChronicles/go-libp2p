@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	. "github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	. "github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 
 	b58 "github.com/mr-tron/base58/base58"
 	mh "github.com/multiformats/go-multihash"

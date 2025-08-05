@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 )
 
 // Validate Stream conforms to the go-libp2p-net Stream interface

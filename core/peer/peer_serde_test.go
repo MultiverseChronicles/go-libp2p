@@ -3,8 +3,8 @@ package peer_test
 import (
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	. "github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	. "github.com/MultiverseChronicles/go-libp2p/test"
 )
 
 func TestPeerSerdePB(t *testing.T) {

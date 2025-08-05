@@ -1,7 +1,7 @@
 package holepunch
 
 import (
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/metricshelper"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/prometheus/client_golang/prometheus"

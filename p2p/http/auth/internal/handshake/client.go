@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 type peerIDAuthClientState int

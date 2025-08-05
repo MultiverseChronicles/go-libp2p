@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 
 	"github.com/MultiverseChronicles/go-libp2p/examples/testutils"
 )

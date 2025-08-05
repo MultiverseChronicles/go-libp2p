@@ -10,7 +10,7 @@ import (
 
 	libp2ptls "github.com/MultiverseChronicles/go-libp2p/p2p/security/tls"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 func StartClient() error {

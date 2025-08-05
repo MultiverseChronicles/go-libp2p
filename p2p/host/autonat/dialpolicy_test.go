@@ -6,8 +6,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/transport"
 	blankhost "github.com/MultiverseChronicles/go-libp2p/p2p/host/blank"
 	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 

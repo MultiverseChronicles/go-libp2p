@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peerstore"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcp"
 
 	"github.com/stretchr/testify/require"

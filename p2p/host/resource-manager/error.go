@@ -3,7 +3,7 @@ package rcmgr
 import (
 	"errors"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 )
 
 type ErrStreamOrConnLimitExceeded struct {

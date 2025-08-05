@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 
 	"github.com/MultiverseChronicles/zeroconf/v2"
 

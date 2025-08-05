@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	mocknetwork "github.com/MultiverseChronicles/go-libp2p/core/network/mocks"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/sec"
-	"github.com/MultiverseChronicles/go-libp2p/core/sec/insecure"
-	"github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	mocknetwork "github.com/MultiverseChronicles/go-libp2p/network/mocks"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/sec"
+	"github.com/MultiverseChronicles/go-libp2p/sec/insecure"
+	"github.com/MultiverseChronicles/go-libp2p/transport"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/net/upgrader"
 
 	ma "github.com/multiformats/go-multiaddr"

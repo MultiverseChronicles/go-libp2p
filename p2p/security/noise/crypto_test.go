@@ -6,7 +6,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
 )
 
 func TestEncryptAndDecrypt_InitToResp(t *testing.T) {

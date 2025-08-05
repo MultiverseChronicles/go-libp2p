@@ -6,9 +6,9 @@ import (
 	"encoding/gob"
 
 	pool "github.com/MultiverseChronicles/go-buffer-pool"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	pstore "github.com/MultiverseChronicles/go-libp2p/core/peerstore"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	pstore "github.com/MultiverseChronicles/go-libp2p/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 
 	ds "github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/query"

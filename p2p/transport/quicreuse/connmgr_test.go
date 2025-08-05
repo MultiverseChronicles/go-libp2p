@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	libp2ptls "github.com/MultiverseChronicles/go-libp2p/p2p/security/tls"
 
 	ma "github.com/multiformats/go-multiaddr"

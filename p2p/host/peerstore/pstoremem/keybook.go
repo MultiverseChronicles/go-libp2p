@@ -4,9 +4,9 @@ import (
 	"errors"
 	"sync"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	pstore "github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	pstore "github.com/MultiverseChronicles/go-libp2p/peerstore"
 )
 
 type memoryKeyBook struct {

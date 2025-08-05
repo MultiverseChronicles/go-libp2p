@@ -7,7 +7,7 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	pubsub "github.com/MultiverseChronicles/go-libp2p-pubsub"
-	peer "github.com/MultiverseChronicles/go-libp2p/core/peer"
+	peer "github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 var handles = map[string]string{}

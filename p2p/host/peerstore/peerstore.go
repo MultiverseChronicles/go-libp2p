@@ -1,8 +1,8 @@
 package peerstore
 
 import (
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	pstore "github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	pstore "github.com/MultiverseChronicles/go-libp2p/peerstore"
 )
 
 func PeerInfos(ps pstore.Peerstore, peers peer.IDSlice) []peer.AddrInfo {

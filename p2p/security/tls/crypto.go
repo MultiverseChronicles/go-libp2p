@@ -17,9 +17,9 @@ import (
 	"runtime/debug"
 	"time"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/sec"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/sec"
 )
 
 const certValidityPeriod = 100 * 365 * 24 * time.Hour // ~100 years

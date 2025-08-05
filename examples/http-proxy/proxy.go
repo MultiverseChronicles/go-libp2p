@@ -12,10 +12,10 @@ import (
 
 	// We need to import libp2p's libraries that we use in this project.
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peerstore"
 
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"

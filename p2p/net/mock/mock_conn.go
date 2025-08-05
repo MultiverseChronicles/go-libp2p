@@ -7,9 +7,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 )

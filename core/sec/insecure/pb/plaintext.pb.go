@@ -7,7 +7,7 @@
 package pb
 
 import (
-	pb "github.com/MultiverseChronicles/go-libp2p/core/crypto/pb"
+	pb "github.com/MultiverseChronicles/go-libp2p/crypto/pb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -81,7 +81,7 @@ const file_core_sec_insecure_pb_plaintext_proto_rawDesc = "" +
 	"$core/sec/insecure/pb/plaintext.proto\x12\fplaintext.pb\x1a\x1bcore/crypto/pb/crypto.proto\"H\n" +
 	"\bExchange\x12\x0e\n" +
 	"\x02id\x18\x01 \x01(\fR\x02id\x12,\n" +
-	"\x06pubkey\x18\x02 \x01(\v2\x14.crypto.pb.PublicKeyR\x06pubkeyB@Z>github.com/MultiverseChronicles/go-libp2p/core/sec/insecure/pb"
+	"\x06pubkey\x18\x02 \x01(\v2\x14.crypto.pb.PublicKeyR\x06pubkeyB@Z>github.com/MultiverseChronicles/go-libp2p/sec/insecure/pb"
 
 var (
 	file_core_sec_insecure_pb_plaintext_proto_rawDescOnce sync.Once

@@ -6,10 +6,10 @@ import (
 	// Import all protobuf packages to ensure their `init` functions run.
 	// This may not be strictly necessary if they are imported in the `libp2p` package, but
 	// we do it here in case the imports in non-test files change.
-	_ "github.com/MultiverseChronicles/go-libp2p/core/crypto/pb"
-	_ "github.com/MultiverseChronicles/go-libp2p/core/peer/pb"
-	_ "github.com/MultiverseChronicles/go-libp2p/core/record/pb"
-	_ "github.com/MultiverseChronicles/go-libp2p/core/sec/insecure/pb"
+	_ "github.com/MultiverseChronicles/go-libp2p/crypto/pb"
+	_ "github.com/MultiverseChronicles/go-libp2p/peer/pb"
+	_ "github.com/MultiverseChronicles/go-libp2p/record/pb"
+	_ "github.com/MultiverseChronicles/go-libp2p/sec/insecure/pb"
 	_ "github.com/MultiverseChronicles/go-libp2p/p2p/host/autonat/pb"
 	_ "github.com/MultiverseChronicles/go-libp2p/p2p/host/peerstore/pstoreds/pb"
 	_ "github.com/MultiverseChronicles/go-libp2p/p2p/protocol/autonatv2/pb"

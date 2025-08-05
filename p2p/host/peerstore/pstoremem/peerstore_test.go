@@ -3,7 +3,7 @@ package pstoremem
 import (
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/peerstore"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"
 )

@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
-	"github.com/MultiverseChronicles/go-libp2p/core/sec"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/sec"
 	tptu "github.com/MultiverseChronicles/go-libp2p/p2p/net/upgrader"
 
 	"github.com/stretchr/testify/assert"

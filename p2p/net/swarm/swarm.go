@@ -12,13 +12,13 @@ import (
 
 	"slices"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/connmgr"
-	"github.com/MultiverseChronicles/go-libp2p/core/event"
-	"github.com/MultiverseChronicles/go-libp2p/core/metrics"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
-	"github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/connmgr"
+	"github.com/MultiverseChronicles/go-libp2p/event"
+	"github.com/MultiverseChronicles/go-libp2p/metrics"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/transport"
 
 	logging "github.com/ipfs/go-log/v2"
 	ma "github.com/multiformats/go-multiaddr"

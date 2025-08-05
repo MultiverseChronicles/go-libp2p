@@ -9,12 +9,12 @@ import (
 	"io"
 	"net"
 
-	ci "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
-	"github.com/MultiverseChronicles/go-libp2p/core/sec"
-	"github.com/MultiverseChronicles/go-libp2p/core/sec/insecure/pb"
+	ci "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/sec"
+	"github.com/MultiverseChronicles/go-libp2p/sec/insecure/pb"
 
 	"github.com/MultiverseChronicles/go-msgio"
 

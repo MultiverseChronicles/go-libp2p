@@ -3,8 +3,8 @@ package proto
 import (
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/record"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/record"
 	pbv2 "github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/pb"
 
 	"google.golang.org/protobuf/proto"

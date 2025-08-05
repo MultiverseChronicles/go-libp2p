@@ -14,7 +14,7 @@ import (
 	"github.com/MultiverseChronicles/go-msgio/pbio"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 
 	"github.com/pion/datachannel"
 	"github.com/pion/sctp"

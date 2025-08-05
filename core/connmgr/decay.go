@@ -4,7 +4,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 // Decayer is implemented by connection managers supporting decaying tags. A

@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/autonatv2"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"

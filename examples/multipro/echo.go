@@ -5,8 +5,8 @@ import (
 	"io"
 	"log"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/google/uuid"

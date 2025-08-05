@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 	. "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 
 	"github.com/stretchr/testify/require"

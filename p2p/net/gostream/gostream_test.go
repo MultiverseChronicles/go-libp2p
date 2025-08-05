@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 	"github.com/multiformats/go-multiaddr"
 )
 

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 // dialWorkerFunc is used by dialSync to spawn a new dial worker

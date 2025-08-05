@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	libp2pquic "github.com/MultiverseChronicles/go-libp2p/p2p/transport/quic"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/quicreuse"
 	webtransport "github.com/MultiverseChronicles/go-libp2p/p2p/transport/webtransport"

@@ -3,9 +3,9 @@ package libp2p
 import (
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/event"
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/event"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/identify"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/fx"

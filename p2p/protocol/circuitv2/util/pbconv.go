@@ -3,7 +3,7 @@ package util
 import (
 	"errors"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	pbv2 "github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/pb"
 
 	ma "github.com/multiformats/go-multiaddr"

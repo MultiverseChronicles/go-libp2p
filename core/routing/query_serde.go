@@ -3,7 +3,7 @@ package routing
 import (
 	"encoding/json"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 func (qe *QueryEvent) MarshalJSON() ([]byte, error) {

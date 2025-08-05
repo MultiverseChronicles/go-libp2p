@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peerstore"
 	pstore "github.com/MultiverseChronicles/go-libp2p/p2p/host/peerstore"
 )
 

@@ -9,8 +9,8 @@ import (
 	"errors"
 	"io"
 
-	pb "github.com/MultiverseChronicles/go-libp2p/core/crypto/pb"
-	"github.com/MultiverseChronicles/go-libp2p/core/internal/catch"
+	pb "github.com/MultiverseChronicles/go-libp2p/crypto/pb"
+	"github.com/MultiverseChronicles/go-libp2p/internal/catch"
 )
 
 // RsaPrivateKey is a rsa private key

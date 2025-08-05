@@ -8,7 +8,7 @@ import (
 	"syscall"
 
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/muxer/yamux"
 	tls "github.com/MultiverseChronicles/go-libp2p/p2p/security/tls"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcp"

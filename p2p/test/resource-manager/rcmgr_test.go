@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	rcmgr "github.com/MultiverseChronicles/go-libp2p/p2p/host/resource-manager"
 
 	"github.com/stretchr/testify/require"

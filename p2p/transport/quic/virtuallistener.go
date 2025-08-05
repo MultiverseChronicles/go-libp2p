@@ -3,8 +3,8 @@ package libp2pquic
 import (
 	"sync"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	tpt "github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	tpt "github.com/MultiverseChronicles/go-libp2p/transport"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/quicreuse"
 
 	ma "github.com/multiformats/go-multiaddr"

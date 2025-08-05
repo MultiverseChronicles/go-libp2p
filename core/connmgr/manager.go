@@ -10,8 +10,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 // SupportsDecay evaluates if the provided ConnManager supports decay, and if

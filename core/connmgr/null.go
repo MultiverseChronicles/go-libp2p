@@ -3,8 +3,8 @@ package connmgr
 import (
 	"context"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 // NullConnMgr is a ConnMgr that provides no functionality.

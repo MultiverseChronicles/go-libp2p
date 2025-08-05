@@ -3,7 +3,7 @@ package tcpreuse
 import (
 	"fmt"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcpreuse/internal/sampledconn"
 	manet "github.com/multiformats/go-multiaddr/net"
 )

@@ -5,7 +5,7 @@
 package tcp
 
 import (
-	"github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/transport"
 	manet "github.com/multiformats/go-multiaddr/net"
 )
 

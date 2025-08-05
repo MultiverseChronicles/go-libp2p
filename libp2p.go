@@ -2,7 +2,7 @@ package libp2p
 
 import (
 	"github.com/MultiverseChronicles/go-libp2p/config"
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
+	"github.com/MultiverseChronicles/go-libp2p/host"
 )
 
 // Config describes a set of settings for a libp2p node.

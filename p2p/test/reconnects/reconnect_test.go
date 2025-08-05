@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 	bhost "github.com/MultiverseChronicles/go-libp2p/p2p/host/basic"
 	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 

@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/sec"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/sec"
 )
 
 type testMode int

@@ -1,7 +1,7 @@
 package libp2p
 
 import (
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/host/autonat"
 	rcmgr "github.com/MultiverseChronicles/go-libp2p/p2p/host/resource-manager"
 	circuit "github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/proto"

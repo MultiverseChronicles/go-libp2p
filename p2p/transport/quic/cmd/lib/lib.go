@@ -7,9 +7,9 @@ import (
 	"io"
 	"log"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	tpt "github.com/MultiverseChronicles/go-libp2p/core/transport"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	tpt "github.com/MultiverseChronicles/go-libp2p/transport"
 	libp2pquic "github.com/MultiverseChronicles/go-libp2p/p2p/transport/quic"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/quicreuse"
 

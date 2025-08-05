@@ -9,9 +9,9 @@ import (
 
 	"github.com/MultiverseChronicles/go-libp2p"
 	dht "github.com/MultiverseChronicles/go-libp2p-kad-dht"
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/routing"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/routing"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/security/noise"
 	libp2ptls "github.com/MultiverseChronicles/go-libp2p/p2p/security/tls"
 )

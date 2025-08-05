@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/host/autonat/pb"
 
 	"github.com/MultiverseChronicles/go-msgio/pbio"

@@ -43,8 +43,8 @@ type Identify struct {
 	// signedPeerRecord contains a serialized SignedEnvelope containing a PeerRecord,
 	// signed by the sending node. It contains the same addresses as the listenAddrs field, but
 	// in a form that lets us share authenticated addrs with other peers.
-	// see github.com/MultiverseChronicles/go-libp2p/core/record/pb/envelope.proto and
-	// github.com/MultiverseChronicles/go-libp2p/core/peer/pb/peer_record.proto for message definitions.
+	// see github.com/MultiverseChronicles/go-libp2p/record/pb/envelope.proto and
+	// github.com/MultiverseChronicles/go-libp2p/peer/pb/peer_record.proto for message definitions.
 	SignedPeerRecord []byte `protobuf:"bytes,8,opt,name=signedPeerRecord" json:"signedPeerRecord,omitempty"`
 	unknownFields    protoimpl.UnknownFields
 	sizeCache        protoimpl.SizeCache

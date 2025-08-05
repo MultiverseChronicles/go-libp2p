@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 
 	proto "github.com/gogo/protobuf/proto"
 	uuid "github.com/google/uuid"

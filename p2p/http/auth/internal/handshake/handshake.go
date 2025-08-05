@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
 
 	pool "github.com/MultiverseChronicles/go-buffer-pool"
 )

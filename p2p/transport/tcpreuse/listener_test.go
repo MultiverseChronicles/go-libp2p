@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/transport"
 	tptu "github.com/MultiverseChronicles/go-libp2p/p2p/net/upgrader"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"

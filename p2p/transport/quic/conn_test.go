@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	mocknetwork "github.com/MultiverseChronicles/go-libp2p/core/network/mocks"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	tpt "github.com/MultiverseChronicles/go-libp2p/core/transport"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	mocknetwork "github.com/MultiverseChronicles/go-libp2p/network/mocks"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	tpt "github.com/MultiverseChronicles/go-libp2p/transport"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/quicreuse"
 
 	ma "github.com/multiformats/go-multiaddr"
@@ -26,7 +26,7 @@ import (
 	"go.uber.org/mock/gomock"
 )
 
-//go:generate sh -c "go run go.uber.org/mock/mockgen -package libp2pquic -destination mock_connection_gater_test.go github.com/MultiverseChronicles/go-libp2p/core/connmgr ConnectionGater && go run golang.org/x/tools/cmd/goimports -w mock_connection_gater_test.go"
+//go:generate sh -c "go run go.uber.org/mock/mockgen -package libp2pquic -destination mock_connection_gater_test.go github.com/MultiverseChronicles/go-libp2p/connmgr ConnectionGater && go run golang.org/x/tools/cmd/goimports -w mock_connection_gater_test.go"
 
 type connTestCase struct {
 	Name    string

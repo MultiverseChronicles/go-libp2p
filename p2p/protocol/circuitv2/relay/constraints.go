@@ -7,7 +7,7 @@ import (
 	"time"
 
 	asnutil "github.com/MultiverseChronicles/go-libp2p-asn-util"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"

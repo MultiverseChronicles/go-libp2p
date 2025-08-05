@@ -4,10 +4,10 @@ import (
 	"context"
 	"net"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/canonicallog"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
-	"github.com/MultiverseChronicles/go-libp2p/core/sec"
+	"github.com/MultiverseChronicles/go-libp2p/canonicallog"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/sec"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/security/noise/pb"
 
 	manet "github.com/multiformats/go-multiaddr/net"

@@ -5,9 +5,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/transport"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/proto"
 
 	logging "github.com/ipfs/go-log/v2"

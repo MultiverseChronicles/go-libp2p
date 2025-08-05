@@ -11,8 +11,8 @@ import (
 	"github.com/MultiverseChronicles/go-libp2p"
 	dht "github.com/MultiverseChronicles/go-libp2p-kad-dht"
 	pubsub "github.com/MultiverseChronicles/go-libp2p-pubsub"
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	drouting "github.com/MultiverseChronicles/go-libp2p/p2p/discovery/routing"
 	dutil "github.com/MultiverseChronicles/go-libp2p/p2p/discovery/util"
 )

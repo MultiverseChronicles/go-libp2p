@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	. "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm"
 
 	ma "github.com/multiformats/go-multiaddr"

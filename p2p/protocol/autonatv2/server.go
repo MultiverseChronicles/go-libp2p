@@ -11,10 +11,10 @@ import (
 	"time"
 
 	pool "github.com/MultiverseChronicles/go-buffer-pool"
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peerstore"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/autonatv2/pb"
 	"github.com/MultiverseChronicles/go-msgio/pbio"
 

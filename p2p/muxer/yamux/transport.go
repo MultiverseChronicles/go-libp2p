@@ -5,7 +5,7 @@ import (
 	"math"
 	"net"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 
 	"github.com/MultiverseChronicles/go-yamux/v5"
 )

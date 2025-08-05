@@ -5,10 +5,10 @@ import (
 	"net/netip"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 	"github.com/MultiverseChronicles/go-libp2p/x/rate"
 	"github.com/stretchr/testify/require"
 

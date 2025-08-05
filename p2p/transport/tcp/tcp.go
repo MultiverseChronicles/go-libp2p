@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/transport"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/net/reuseport"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcpreuse"
 

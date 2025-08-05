@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	bhost "github.com/MultiverseChronicles/go-libp2p/p2p/host/basic"
 	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/ping"

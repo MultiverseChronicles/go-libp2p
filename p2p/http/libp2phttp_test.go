@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	host "github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	host "github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	libp2phttp "github.com/MultiverseChronicles/go-libp2p/p2p/http"
 	httpauth "github.com/MultiverseChronicles/go-libp2p/p2p/http/auth"
 	httpping "github.com/MultiverseChronicles/go-libp2p/p2p/http/ping"

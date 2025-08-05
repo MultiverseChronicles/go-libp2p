@@ -113,3 +113,15 @@ require (
 )
 
 replace github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core v0.1.0
+
+replace github.com/libp2p/go-libp2p-crypto => github.com/MultiverseChronicles/go-libp2p-crypto v0.1.0
+
+replace github.com/libp2p/go-libp2p-testing => github.com/MultiverseChronicles/go-libp2p-testing v0.1.0
+
+replace github.com/libp2p/go-libp2p => github.com/MultiverseChronicles/go-libp2p v0.23.0
+
+replace github.com/libp2p/go-libp2p-asn-util => github.com/MultiverseChronicles/go-libp2p-asn-util v0.1.0
+
+replace github.com/libp2p/go-buffer-pool => github.com/MultiverseChronicles/go-buffer-pool v0.1.0
+
+replace github.com/libp2p/go-msgio => github.com/MultiverseChronicles/go-msgio v0.3.0

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peerstore"
 	pbv2 "github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/pb"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/proto"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/util"

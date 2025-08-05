@@ -5,10 +5,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	. "github.com/MultiverseChronicles/go-libp2p/core/record"
-	"github.com/MultiverseChronicles/go-libp2p/core/record/pb"
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	. "github.com/MultiverseChronicles/go-libp2p/record"
+	"github.com/MultiverseChronicles/go-libp2p/record/pb"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 
 	"google.golang.org/protobuf/proto"
 )

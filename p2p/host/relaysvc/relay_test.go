@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/event"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/event"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 	bhost "github.com/MultiverseChronicles/go-libp2p/p2p/host/blank"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/host/eventbus"
 	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"

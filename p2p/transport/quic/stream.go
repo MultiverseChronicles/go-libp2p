@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 
 	"github.com/quic-go/quic-go"
 )

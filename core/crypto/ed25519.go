@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"io"
 
-	pb "github.com/MultiverseChronicles/go-libp2p/core/crypto/pb"
-	"github.com/MultiverseChronicles/go-libp2p/core/internal/catch"
+	pb "github.com/MultiverseChronicles/go-libp2p/crypto/pb"
+	"github.com/MultiverseChronicles/go-libp2p/internal/catch"
 )
 
 // Ed25519PrivateKey is an ed25519 private key.

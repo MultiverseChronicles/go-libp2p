@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 )
 
 // resources tracks the current state of resource consumption

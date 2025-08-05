@@ -1,6 +1,6 @@
 package host
 
-import "github.com/MultiverseChronicles/go-libp2p/core/peer"
+import "github.com/MultiverseChronicles/go-libp2p/peer"
 
 // InfoFromHost returns a peer.AddrInfo struct with the Host's ID and all of its Addrs.
 func InfoFromHost(h Host) *peer.AddrInfo {

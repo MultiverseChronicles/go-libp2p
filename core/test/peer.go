@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 
 	mh "github.com/multiformats/go-multihash"
 )

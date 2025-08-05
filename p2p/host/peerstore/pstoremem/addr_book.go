@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/peerstore"
-	"github.com/MultiverseChronicles/go-libp2p/core/record"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peerstore"
+	"github.com/MultiverseChronicles/go-libp2p/record"
 
 	logging "github.com/ipfs/go-log/v2"
 	ma "github.com/multiformats/go-multiaddr"
@@ -290,7 +290,7 @@ func (mab *memoryAddrBook) AddAddrs(p peer.ID, addrs []ma.Multiaddr, ttl time.Du
 }
 
 // ConsumePeerRecord adds addresses from a signed peer.PeerRecord, which will expire after the given TTL.
-// See https://godoc.org/github.com/MultiverseChronicles/go-libp2p/core/peerstore#CertifiedAddrBook for more details.
+// See https://godoc.org/github.com/MultiverseChronicles/go-libp2p/peerstore#CertifiedAddrBook for more details.
 func (mab *memoryAddrBook) ConsumePeerRecord(recordEnvelope *record.Envelope, ttl time.Duration) (bool, error) {
 	r, err := recordEnvelope.Record()
 	if err != nil {

@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/ipfs/go-datastore"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

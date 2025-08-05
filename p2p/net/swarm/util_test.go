@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

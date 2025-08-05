@@ -3,7 +3,7 @@ package peer
 import (
 	"encoding/json"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/internal/catch"
+	"github.com/MultiverseChronicles/go-libp2p/internal/catch"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

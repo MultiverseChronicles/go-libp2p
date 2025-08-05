@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/discovery"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/routing"
+	"github.com/MultiverseChronicles/go-libp2p/discovery"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/routing"
 
 	"github.com/ipfs/go-cid"
 	mh "github.com/multiformats/go-multihash"

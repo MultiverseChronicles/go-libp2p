@@ -9,7 +9,7 @@ import (
 	"time"
 
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/MultiverseChronicles/go-libp2p/core/event"
+	"github.com/MultiverseChronicles/go-libp2p/event"
 )
 
 type logInterface interface {

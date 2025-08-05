@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/connmgr"
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/pnet"
-	tpt "github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/connmgr"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/pnet"
+	tpt "github.com/MultiverseChronicles/go-libp2p/transport"
 	p2ptls "github.com/MultiverseChronicles/go-libp2p/p2p/security/tls"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/quicreuse"
 

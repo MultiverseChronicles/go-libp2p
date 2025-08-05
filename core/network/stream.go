@@ -1,7 +1,7 @@
 package network
 
 import (
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 )
 
 // Stream represents a bidirectional channel between two agents in

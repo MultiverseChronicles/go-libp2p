@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm"
 
 	"github.com/MultiverseChronicles/go-libp2p-testing/race"
@@ -21,7 +21,7 @@ import (
 	"go.uber.org/mock/gomock"
 )
 
-//go:generate go run go.uber.org/mock/mockgen -package transport_integration -destination mock_connection_gater_test.go github.com/MultiverseChronicles/go-libp2p/core/connmgr ConnectionGater
+//go:generate go run go.uber.org/mock/mockgen -package transport_integration -destination mock_connection_gater_test.go github.com/MultiverseChronicles/go-libp2p/connmgr ConnectionGater
 
 // normalize removes the certhash and replaces /wss with /tls/ws
 func normalize(addr ma.Multiaddr) ma.Multiaddr {

@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/multiformats/go-multiaddr"

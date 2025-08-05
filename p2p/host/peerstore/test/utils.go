@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	pt "github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	pt "github.com/MultiverseChronicles/go-libp2p/test"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

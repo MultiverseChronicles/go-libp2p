@@ -4,10 +4,10 @@ import (
 	"sort"
 	"testing"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	pstore "github.com/MultiverseChronicles/go-libp2p/core/peerstore"
-	pt "github.com/MultiverseChronicles/go-libp2p/core/test"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	pstore "github.com/MultiverseChronicles/go-libp2p/peerstore"
+	pt "github.com/MultiverseChronicles/go-libp2p/test"
 
 	"github.com/stretchr/testify/require"
 )

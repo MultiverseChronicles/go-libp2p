@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/event"
+	"github.com/MultiverseChronicles/go-libp2p/event"
 	libp2pquic "github.com/MultiverseChronicles/go-libp2p/p2p/transport/quic"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/tcp"
 

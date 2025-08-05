@@ -149,7 +149,7 @@ const file_core_peer_pb_peer_record_proto_rawDesc = "" +
 	"\x03seq\x18\x02 \x01(\x04R\x03seq\x12=\n" +
 	"\taddresses\x18\x03 \x03(\v2\x1f.peer.pb.PeerRecord.AddressInfoR\taddresses\x1a+\n" +
 	"\vAddressInfo\x12\x1c\n" +
-	"\tmultiaddr\x18\x01 \x01(\fR\tmultiaddrB8Z6github.com/MultiverseChronicles/go-libp2p/core/peer/pbb\x06proto3"
+	"\tmultiaddr\x18\x01 \x01(\fR\tmultiaddrB8Z6github.com/MultiverseChronicles/go-libp2p/peer/pbb\x06proto3"
 
 var (
 	file_core_peer_pb_peer_record_proto_rawDescOnce sync.Once

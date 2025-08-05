@@ -1,7 +1,7 @@
 package event
 
 import (
-	"github.com/MultiverseChronicles/go-libp2p/core/record"
+	"github.com/MultiverseChronicles/go-libp2p/record"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

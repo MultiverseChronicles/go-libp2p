@@ -6,8 +6,8 @@ import (
 
 	"github.com/MultiverseChronicles/go-flow-metrics"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/protocol"
 )
 
 // BandwidthCounter tracks incoming and outgoing data transferred by the local peer.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/security/noise"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/security/noise/pb"
 )

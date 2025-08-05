@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	pb "github.com/MultiverseChronicles/go-libp2p/core/crypto/pb"
-	"github.com/MultiverseChronicles/go-libp2p/core/internal/catch"
+	pb "github.com/MultiverseChronicles/go-libp2p/crypto/pb"
+	"github.com/MultiverseChronicles/go-libp2p/internal/catch"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"

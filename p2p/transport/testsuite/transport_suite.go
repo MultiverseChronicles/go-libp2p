@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/transport"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/transport"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

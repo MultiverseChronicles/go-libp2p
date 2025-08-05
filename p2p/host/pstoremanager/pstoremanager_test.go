@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/event"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/event"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/host/eventbus"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/host/pstoremanager"
 	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
@@ -15,7 +15,7 @@ import (
 	"go.uber.org/mock/gomock"
 )
 
-//go:generate sh -c "go run go.uber.org/mock/mockgen -package pstoremanager_test -destination mock_peerstore_test.go github.com/MultiverseChronicles/go-libp2p/core/peerstore Peerstore"
+//go:generate sh -c "go run go.uber.org/mock/mockgen -package pstoremanager_test -destination mock_peerstore_test.go github.com/MultiverseChronicles/go-libp2p/peerstore Peerstore"
 
 func TestGracePeriod(t *testing.T) {
 	t.Parallel()

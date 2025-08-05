@@ -6,8 +6,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 
 	"github.com/multiformats/go-multiaddr"
 )

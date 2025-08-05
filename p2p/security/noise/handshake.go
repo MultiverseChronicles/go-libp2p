@@ -9,9 +9,9 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/sec"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/sec"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/security/noise/pb"
 
 	"github.com/flynn/noise"

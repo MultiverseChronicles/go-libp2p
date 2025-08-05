@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 // AutoRelay will call this function when it needs new candidates because it is

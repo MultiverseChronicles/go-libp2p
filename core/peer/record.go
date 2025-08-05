@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/internal/catch"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer/pb"
-	"github.com/MultiverseChronicles/go-libp2p/core/record"
+	"github.com/MultiverseChronicles/go-libp2p/internal/catch"
+	"github.com/MultiverseChronicles/go-libp2p/peer/pb"
+	"github.com/MultiverseChronicles/go-libp2p/record"
 
 	ma "github.com/multiformats/go-multiaddr"
 

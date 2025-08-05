@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	ipnet "github.com/MultiverseChronicles/go-libp2p/core/pnet"
+	ipnet "github.com/MultiverseChronicles/go-libp2p/pnet"
 )
 
 // NewProtectedConn creates a new protected connection

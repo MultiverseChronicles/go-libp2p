@@ -19,7 +19,7 @@ import (
 
 	"github.com/go-redis/redis/v8"
 	"github.com/MultiverseChronicles/go-libp2p"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/muxer/yamux"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/ping"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/security/noise"

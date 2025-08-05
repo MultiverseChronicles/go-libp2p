@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 )
 
 // QueryEventType indicates the query event's type.

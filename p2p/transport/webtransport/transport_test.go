@@ -19,12 +19,12 @@ import (
 	"testing/quick"
 	"time"
 
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
-	mocknetwork "github.com/MultiverseChronicles/go-libp2p/core/network/mocks"
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
-	tpt "github.com/MultiverseChronicles/go-libp2p/core/transport"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/network"
+	mocknetwork "github.com/MultiverseChronicles/go-libp2p/network/mocks"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
+	"github.com/MultiverseChronicles/go-libp2p/test"
+	tpt "github.com/MultiverseChronicles/go-libp2p/transport"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/transport/quicreuse"
 	libp2pwebtransport "github.com/MultiverseChronicles/go-libp2p/p2p/transport/webtransport"
 
@@ -365,7 +365,7 @@ func TestResourceManagerListening(t *testing.T) {
 }
 
 // TODO: unify somehow. We do the same in libp2pquic.
-//go:generate sh -c "go run go.uber.org/mock/mockgen -package libp2pwebtransport_test -destination mock_connection_gater_test.go github.com/MultiverseChronicles/go-libp2p/core/connmgr ConnectionGater && go run golang.org/x/tools/cmd/goimports -w mock_connection_gater_test.go"
+//go:generate sh -c "go run go.uber.org/mock/mockgen -package libp2pwebtransport_test -destination mock_connection_gater_test.go github.com/MultiverseChronicles/go-libp2p/connmgr ConnectionGater && go run golang.org/x/tools/cmd/goimports -w mock_connection_gater_test.go"
 
 func TestConnectionGaterDialing(t *testing.T) {
 	ctrl := gomock.NewController(t)

@@ -8,8 +8,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 
 	"github.com/benbjohnson/clock"
 	ma "github.com/multiformats/go-multiaddr"

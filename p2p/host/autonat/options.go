@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/host"
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/host"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 )
 
 // config holds configurable options for the autonat subsystem.

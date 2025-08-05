@@ -6,8 +6,8 @@ import (
 
 	"github.com/benbjohnson/clock"
 	"github.com/MultiverseChronicles/go-libp2p"
-	ic "github.com/MultiverseChronicles/go-libp2p/core/crypto"
-	"github.com/MultiverseChronicles/go-libp2p/core/test"
+	ic "github.com/MultiverseChronicles/go-libp2p/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/test"
 	libp2pwebtransport "github.com/MultiverseChronicles/go-libp2p/p2p/transport/webtransport"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

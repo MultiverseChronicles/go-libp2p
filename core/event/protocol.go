@@ -1,8 +1,8 @@
 package event
 
 import (
-	peer "github.com/MultiverseChronicles/go-libp2p/core/peer"
-	protocol "github.com/MultiverseChronicles/go-libp2p/core/protocol"
+	peer "github.com/MultiverseChronicles/go-libp2p/peer"
+	protocol "github.com/MultiverseChronicles/go-libp2p/protocol"
 )
 
 // EvtPeerProtocolsUpdated should be emitted when a peer we're connected to adds or removes protocols from their stack.

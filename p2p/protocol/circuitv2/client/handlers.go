@@ -3,7 +3,7 @@ package client
 import (
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 	pbv2 "github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/pb"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/protocol/circuitv2/util"
 )

@@ -5,7 +5,7 @@ package libp2p
 import (
 	"crypto/rand"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/crypto"
+	"github.com/MultiverseChronicles/go-libp2p/crypto"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/host/peerstore/pstoremem"
 	rcmgr "github.com/MultiverseChronicles/go-libp2p/p2p/host/resource-manager"
 	"github.com/MultiverseChronicles/go-libp2p/p2p/muxer/yamux"

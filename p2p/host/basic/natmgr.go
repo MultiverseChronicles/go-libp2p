@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/network"
+	"github.com/MultiverseChronicles/go-libp2p/network"
 	inat "github.com/MultiverseChronicles/go-libp2p/p2p/net/nat"
 
 	ma "github.com/multiformats/go-multiaddr"

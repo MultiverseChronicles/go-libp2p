@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/peer"
 	basic "github.com/MultiverseChronicles/go-libp2p/p2p/host/basic"
 	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 
