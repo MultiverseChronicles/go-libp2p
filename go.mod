@@ -1,7 +1,14 @@
 module github.com/MultiverseChronicles/libp2p
 
 go 1.24.0
-replace github.com/libp2p/go-libp2p => github.com/MultiverseChronicles/go-libp2p v0.23.0
+
+replace (
+    github.com/libp2p/go-libp2p => github.com/MultiverseChronicles/go-libp2p v0.23.0
+    github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core v.0.1.0
+    github.com/multiformats/go-multiaddr => github.com/MultiverseChronicles/go-multiaddr v1.1.0
+)
+
+
 require (
 	github.com/MultiverseChronicles/go-buffer-pool v0.1.0
 	github.com/MultiverseChronicles/go-flow-metrics v0.4.0
@@ -118,3 +125,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.4.1 // indirect
 )
+
+replace github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core latest
