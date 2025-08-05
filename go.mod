@@ -1,7 +1,7 @@
 module github.com/MultiverseChronicles/libp2p
 
 go 1.24.0
-
+replace github.com/libp2p/go-libp2p => github.com/MultiverseChronicles/go-libp2p v0.23.0
 require (
 	github.com/MultiverseChronicles/go-buffer-pool v0.1.0
 	github.com/MultiverseChronicles/go-flow-metrics v0.4.0
